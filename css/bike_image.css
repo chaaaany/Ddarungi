@@ -1,0 +1,55 @@
+.index_1 {
+  background: url("../picture/background.png");
+  background-size: 100%;
+}
+#introduction {
+  position: relative;
+  left: 30px;
+  top: 30px;
+  border-left: 4px solid #ffffff;
+  font-family: "NanumSquare", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  line-height: 1.5em;
+  margin: 10px;
+  color: #ffffff;
+  font-size: 30px;
+}
+#introduction .bold {
+  font-weight: bolder;
+}
+#login-icon {
+  position: absolute;
+  float: right;
+  top: 6%;
+  right: 5%;
+  width: 237.75px;
+  height: 237.75px;
+}
+#logo {
+  position: relative;
+  left: 30px;
+  width: 355px;
+  height: 202.5px;
+}
+#sns {
+  overflow: hidden;
+  position: relative;
+  float: right;
+  margin-right: 60px;
+  bottom: 60px;
+}
+#sns > a > img {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+#bottom-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  width: 60px;
+  height: 32px;
+}
